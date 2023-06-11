@@ -39,8 +39,8 @@ def find_cat_cont_columns(df): ## Logic to Separate Continuous & Categorical Col
 ### Web App / Dashboard Code
 st.set_page_config(page_icon=":bar_chart:", page_title="EDA Automated using Python")
 
-st.title("Harnessing the Power of Python to Automate EDA :bar_chart: :tea: :coffee:")
-st.caption("Upload CSV file to see various Charts related to EDA. Please upload file that has both continuous columns and categorical columns. Once you upload file, various charts, widgets and basic stats will be displayed. As a sample example, you can upload famous <a href='https://www.kaggle.com/competitions/titanic/data?select=train.csv'>Titanic Dataset</a> available from Kaggle.", unsafe_allow_html=True)
+st.title("Harnessing the Power of AI to Automate Eeploratory Data Analysis Built under <a href='https://quantumxtechnologies.github.io/home/'>QuantumX</a>:bar_chart: :coffee:")
+st.caption("Upload CSV file to see various Charts related to EDA. Please upload file that has both continuous columns and categorical columns. Once you upload file, various charts, widgets and basic stats will be displayed. ", unsafe_allow_html=True)
 st.markdown("Please feel free to connect with us here if you want to learn how to create data analysis for better data in AI systems.", unsafe_allow_html=True)
 upload = st.file_uploader(label="Upload File Here:", type=["csv"])
 
